@@ -9,7 +9,7 @@ You must have eos installed on your system. If not, please look at the build and
 ## How to run  
 After building and installing the EOS, go to the eos source directory and run the below commands to start keosd   
 ```bash
-cd eos/build/programs
+cd eos/build/programs/keosd
 keosd  --http-server-address=127.0.0.1:8899 --http-validate-host=false --plugin eosio::http_plugin --verbose-http-errors
 ```
 #### Clone Scala-API-Wrapper

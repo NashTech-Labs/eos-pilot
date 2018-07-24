@@ -5,7 +5,6 @@ import scala.concurrent.ExecutionContext.Implicits._
 import scala.util.{Failure, Success}
 
 object CreateWallet extends App {
-
   //     The name of the wallet should be numeric only. I can't figure out why, If you give a non-numeric
   //     name to it, it will give an internal server error.
   val walletName = Math.abs(scala.util.Random.nextInt())
